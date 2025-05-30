@@ -10,5 +10,8 @@ public class PizzaCafe {
 
     BasePizza extraMushroomPizza = new ExtraMushroomPizza(pizza);
     System.out.println("Cost of FarmHouse Pizza with Extra Mushrooms: " + extraMushroomPizza.getCost());
+
+    BasePizza extraMushroomAndCheeseFarmhousePizza = new ExtraCheesePizza(extraMushroomPizza);
+    System.out.println("Cost of FarmHouse Pizza with Extra Mushrooms and Extra Cheese: " + extraMushroomAndCheeseFarmhousePizza.getCost());
   }
 }

@@ -1,6 +1,6 @@
 package decorator;
 
-public class ExtraMushroomPizza extends ToppingDecorator {
+public class ExtraMushroomPizza extends BasePizza {
 
   private BasePizza pizza;
 
