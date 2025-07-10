@@ -66,6 +66,7 @@ public class BookingService {
                 throw new Exception("Seat " + seat.getId() + " is not locked by the user.");
             }
         }
+        seatLockProvider.unlockSeats(booking.getShow(), booking.getSeats(), user);
         booking.confirmBooking();
         return true;
     }
