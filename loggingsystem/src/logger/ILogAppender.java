@@ -1,6 +1,6 @@
-package loggingsystem.src.logger;
+package logger;
 
-import loggingsystem.src.core.LogMessage;
+import core.LogMessage;
 
 public interface ILogAppender {
     void append(LogMessage logMessage);

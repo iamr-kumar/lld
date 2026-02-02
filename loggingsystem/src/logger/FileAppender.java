@@ -1,6 +1,6 @@
-package loggingsystem.src.logger;
+package logger;
 
-import loggingsystem.src.core.LogMessage;
+import core.LogMessage;
 
 public class FileAppender implements ILogAppender {
     private String filePath;

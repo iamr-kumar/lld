@@ -1,3 +1,4 @@
+package ecommerce;
 
 public class SilverStrategy implements LevelStrategy {
     public double calculatePoints(double amount) {

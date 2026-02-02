@@ -1,7 +1,7 @@
-package tictactoe.src.player;
+package player;
 
-import tictactoe.src.Board;
-import tictactoe.src.Position;
+import core.Board;
+import core.Position;
 
 public interface PlayerStrategy {
     public Position makeMove(Board board);

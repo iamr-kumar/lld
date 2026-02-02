@@ -1,3 +1,4 @@
+package ecommerce;
 
 public class LevelStrategyFactory {
     public static LevelStrategy getLevelStrategy(double points) {

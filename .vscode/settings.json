@@ -1,3 +1,16 @@
 {
-  "java.project.sourcePaths": ["cache/src", "bookmyshow/src", "parkinglot/src", "kafka/src"]
+  "java.project.sourcePaths": [
+    "bookmyshow/src",
+    "cache/src",
+    "ecommercemanagement/src",
+    "fitso/src",
+    "kafka/src",
+    "loggingsystem/src",
+    "parkinglot/src",
+    "patterns",
+    "splitwise",
+    "taskmanagementsystem/src",
+    "tictactoe/src",
+    "trainscheduling/src"
+  ]
 }

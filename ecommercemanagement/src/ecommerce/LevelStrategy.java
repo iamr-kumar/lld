@@ -1,3 +1,4 @@
+package ecommerce;
 
 public interface LevelStrategy {
     double calculatePoints(double amount);

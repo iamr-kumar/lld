@@ -1,4 +1,4 @@
-package loggingsystem.src.logger;
+package logger;
 
 public class WarnLogger extends LogHandler {
     public WarnLogger(int level, ILogAppender appender) {

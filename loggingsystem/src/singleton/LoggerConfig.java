@@ -1,7 +1,7 @@
-package loggingsystem.src.singleton;
+package singleton;
 
-import loggingsystem.src.core.LogLevel;
-import loggingsystem.src.logger.ILogAppender;
+import core.LogLevel;
+import logger.ILogAppender;
 
 public class LoggerConfig {
     private LogLevel logLevel;

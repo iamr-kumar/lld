@@ -1,4 +1,4 @@
-package tictactoe.src.state;
+package state;
 
 public enum GameOutcome {
     X_WIN,

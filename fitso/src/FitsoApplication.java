@@ -1,15 +1,13 @@
-package fitso.src;
-
-import fitso.src.config.ApplicationConfig;
-import fitso.src.models.Booking;
-import fitso.src.models.FitnessCenter;
-import fitso.src.models.User;
-import fitso.src.models.WorkoutSlot;
-import fitso.src.models.WorkoutType;
-import fitso.src.services.BookingService;
-import fitso.src.services.FitnessCenterService;
-import fitso.src.services.UserService;
-import fitso.src.services.WorkoutSlotService;
+import config.ApplicationConfig;
+import models.Booking;
+import models.FitnessCenter;
+import models.User;
+import models.WorkoutSlot;
+import models.WorkoutType;
+import services.BookingService;
+import services.FitnessCenterService;
+import services.UserService;
+import services.WorkoutSlotService;
 import java.util.List;
 import java.util.Set;
 

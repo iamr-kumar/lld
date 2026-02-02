@@ -1,7 +1,7 @@
-package fitso.src.repositories.impl;
+package repositories.impl;
 
-import fitso.src.models.User;
-import fitso.src.repositories.UserRepository;
+import models.User;
+import repositories.UserRepository;
 import java.util.Optional;
 import java.util.concurrent.ConcurrentHashMap;
 

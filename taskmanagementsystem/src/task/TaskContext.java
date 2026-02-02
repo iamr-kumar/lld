@@ -1,7 +1,7 @@
-package taskmanagementsystem.src.task;
+package task;
 
-import taskmanagementsystem.src.task.state.TaskState;
-import taskmanagementsystem.src.task.state.UnassignedState;
+import task.state.TaskState;
+import task.state.UnassignedState;
 
 public class TaskContext {
     private TaskState currentState;

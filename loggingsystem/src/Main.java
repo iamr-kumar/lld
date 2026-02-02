@@ -1,15 +1,13 @@
-package loggingsystem.src;
-
-import loggingsystem.src.core.LogLevel;
-import loggingsystem.src.logger.ConsoleAppender;
-import loggingsystem.src.logger.DebugLogger;
-import loggingsystem.src.logger.ErrorLogger;
-import loggingsystem.src.logger.ILogAppender;
-import loggingsystem.src.logger.InfoLogger;
-import loggingsystem.src.logger.LogHandler;
-import loggingsystem.src.logger.WarnLogger;
-import loggingsystem.src.singleton.Logger;
-import loggingsystem.src.singleton.LoggerConfig;
+import core.LogLevel;
+import logger.ConsoleAppender;
+import logger.DebugLogger;
+import logger.ErrorLogger;
+import logger.ILogAppender;
+import logger.InfoLogger;
+import logger.LogHandler;
+import logger.WarnLogger;
+import singleton.Logger;
+import singleton.LoggerConfig;
 
 public class Main {
     public static LogHandler getLogHandlerChain(ILogAppender appender) {

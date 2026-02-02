@@ -1,9 +1,9 @@
-package tictactoe.src.player;
+package player;
 
 import java.util.Scanner;
 
-import tictactoe.src.Board;
-import tictactoe.src.Position;
+import core.Board;
+import core.Position;
 
 public class HumanPlayerStrategy implements PlayerStrategy {
     private final String name;

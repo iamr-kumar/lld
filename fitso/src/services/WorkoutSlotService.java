@@ -1,8 +1,8 @@
-package fitso.src.services;
+package services;
 
-import fitso.src.models.WorkoutSlot;
-import fitso.src.models.WorkoutType;
-import fitso.src.strategies.SlotFilterStrategy;
+import models.WorkoutSlot;
+import models.WorkoutType;
+import strategies.SlotFilterStrategy;
 import java.util.List;
 import java.util.Optional;
 

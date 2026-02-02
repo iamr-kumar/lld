@@ -1,7 +1,7 @@
-package loggingsystem.src.logger;
+package logger;
 
-import loggingsystem.src.core.LogLevel;
-import loggingsystem.src.core.LogMessage;
+import core.LogLevel;
+import core.LogMessage;
 
 public abstract class LogHandler {
     public static final int INFO = 1;

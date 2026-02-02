@@ -1,4 +1,4 @@
-package loggingsystem.src.logger;
+package logger;
 
 public class DebugLogger extends LogHandler {
     public DebugLogger(int level, ILogAppender appender) {

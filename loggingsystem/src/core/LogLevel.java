@@ -1,4 +1,4 @@
-package loggingsystem.src.core;
+package core;
 
 public enum LogLevel {
     DEBUG(1),

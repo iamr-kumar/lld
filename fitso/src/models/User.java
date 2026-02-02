@@ -1,4 +1,4 @@
-package fitso.src.models;
+package models;
 
 import java.util.Objects;
 

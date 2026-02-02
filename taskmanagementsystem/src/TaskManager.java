@@ -1,4 +1,3 @@
-package taskmanagementsystem.src;
 
 import java.util.Date;
 import java.util.List;
@@ -6,9 +5,10 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Collectors;
 
-import taskmanagementsystem.src.task.Task;
-import taskmanagementsystem.src.task.TaskPriority;
-import taskmanagementsystem.src.task.TaskStatus;
+import task.Task;
+import task.TaskPriority;
+import task.TaskStatus;
+import task.User;
 
 public class TaskManager {
     private static TaskManager instance;

@@ -1,9 +1,7 @@
-package taskmanagementsystem.src.task;
+package task;
 
 import java.util.Date;
 import java.util.UUID;
-
-import taskmanagementsystem.src.User;
 
 public class Task {
     private String id;

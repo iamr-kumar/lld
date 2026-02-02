@@ -1,9 +1,9 @@
-package taskmanagementsystem.src;
 
 import java.util.Date;
 
-import taskmanagementsystem.src.task.TaskPriority;
-import taskmanagementsystem.src.task.TaskStatus;
+import task.TaskPriority;
+import task.TaskStatus;
+import task.User;
 
 public class TaskManagerDemo {
     public static void main(String[] args) {

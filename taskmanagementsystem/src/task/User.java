@@ -1,4 +1,4 @@
-package taskmanagementsystem.src;
+package task;
 
 public class User {
     private int id;

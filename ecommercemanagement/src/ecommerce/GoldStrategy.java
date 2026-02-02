@@ -1,3 +1,4 @@
+package ecommerce;
 
 public class GoldStrategy implements LevelStrategy {
     public double calculatePoints(double amount) {

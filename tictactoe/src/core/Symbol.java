@@ -1,4 +1,4 @@
-package tictactoe.src;
+package core;
 
 public enum Symbol {
     X, O, EMPTY;

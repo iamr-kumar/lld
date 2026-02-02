@@ -1,10 +1,10 @@
-package loggingsystem.src.singleton;
+package singleton;
 
 import java.util.concurrent.ConcurrentHashMap;
 
-import loggingsystem.src.core.LogLevel;
-import loggingsystem.src.core.LogMessage;
-import loggingsystem.src.logger.ILogAppender;
+import core.LogLevel;
+import core.LogMessage;
+import logger.ILogAppender;
 
 public class Logger {
     private static final ConcurrentHashMap<String, Logger> instances = new ConcurrentHashMap<>();

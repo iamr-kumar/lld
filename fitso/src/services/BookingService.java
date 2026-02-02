@@ -1,6 +1,6 @@
-package fitso.src.services;
+package services;
 
-import fitso.src.models.Booking;
+import models.Booking;
 import java.util.List;
 import java.util.Optional;
 

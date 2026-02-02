@@ -1,3 +1,4 @@
+package ecommerce;
 
 public class User {
     String username;

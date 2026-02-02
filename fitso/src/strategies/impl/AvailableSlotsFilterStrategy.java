@@ -1,7 +1,7 @@
-package fitso.src.strategies.impl;
+package strategies.impl;
 
-import fitso.src.models.WorkoutSlot;
-import fitso.src.strategies.SlotFilterStrategy;
+import models.WorkoutSlot;
+import strategies.SlotFilterStrategy;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;

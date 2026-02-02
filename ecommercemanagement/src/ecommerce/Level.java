@@ -1,3 +1,4 @@
+package ecommerce;
 
 public enum Level {
     BRONZE,

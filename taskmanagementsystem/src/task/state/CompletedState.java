@@ -1,7 +1,7 @@
-package taskmanagementsystem.src.task.state;
+package task.state;
 
-import taskmanagementsystem.src.task.TaskContext;
-import taskmanagementsystem.src.task.TaskStatus;
+import task.TaskContext;
+import task.TaskStatus;
 
 public class CompletedState implements TaskState {
 

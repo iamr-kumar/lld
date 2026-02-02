@@ -1,6 +1,6 @@
-package tictactoe.src.state;
+package state;
 
-import tictactoe.src.player.Player;
+import player.Player;
 
 public interface GameState {
     void next(GameContext context, Player player, boolean hasWon);

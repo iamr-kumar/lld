@@ -1,3 +1,4 @@
+package ecommerce;
 
 public class BronzeStrategy implements LevelStrategy {
     public double calculatePoints(double amount) {
