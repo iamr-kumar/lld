@@ -1,8 +1,8 @@
-package player;
+package tictactoe.src.player;
 
-import core.Board;
-import core.Position;
-import core.Symbol;
+import tictactoe.src.core.Board;
+import tictactoe.src.core.Position;
+import tictactoe.src.core.Symbol;
 
 public class Player {
     private final Symbol symbol;

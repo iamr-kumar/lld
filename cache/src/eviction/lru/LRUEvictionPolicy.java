@@ -1,10 +1,10 @@
-package eviction.lru;
+package cache.src.eviction.lru;
 
 import java.util.Map;
 import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
-import eviction.IEvictionPolicy;
+import cache.src.eviction.IEvictionPolicy;
 
 class Node<K> {
     K key;

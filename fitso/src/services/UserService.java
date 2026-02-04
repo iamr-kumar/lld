@@ -1,6 +1,6 @@
-package services;
+package fitso.src.services;
 
-import models.User;
+import fitso.src.models.User;
 import java.util.Optional;
 
 /**

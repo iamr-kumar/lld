@@ -1,4 +1,4 @@
-package abstractfactory;
+package patterns.abstractfactory;
 
 public class MacOsButton implements IButton {
   @Override

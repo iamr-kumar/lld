@@ -1,4 +1,4 @@
-package strategy;
+package patterns.strategy;
 
 public class BitcoinPayment implements PaymentStrategy {
   @Override

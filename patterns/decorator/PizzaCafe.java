@@ -1,4 +1,4 @@
-package decorator;
+package patterns.decorator;
 
 public class PizzaCafe {
   public static void main(String[] args) {
@@ -12,6 +12,7 @@ public class PizzaCafe {
     System.out.println("Cost of FarmHouse Pizza with Extra Mushrooms: " + extraMushroomPizza.getCost());
 
     BasePizza extraMushroomAndCheeseFarmhousePizza = new ExtraCheesePizza(extraMushroomPizza);
-    System.out.println("Cost of FarmHouse Pizza with Extra Mushrooms and Extra Cheese: " + extraMushroomAndCheeseFarmhousePizza.getCost());
+    System.out.println("Cost of FarmHouse Pizza with Extra Mushrooms and Extra Cheese: "
+        + extraMushroomAndCheeseFarmhousePizza.getCost());
   }
 }

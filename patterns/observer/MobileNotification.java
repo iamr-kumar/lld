@@ -1,4 +1,4 @@
-package observer;
+package patterns.observer;
 
 public class MobileNotification implements IStockObserver {
     private String phoneNumber;
@@ -13,7 +13,8 @@ public class MobileNotification implements IStockObserver {
     public void update() {
         String productName = observable.getProductName();
         int stockCount = observable.getStockCount();
-        System.out.println("Sending SMS to " + phoneNumber + ": " + productName + " is now in stock with count: " + stockCount);
+        System.out.println(
+                "Sending SMS to " + phoneNumber + ": " + productName + " is now in stock with count: " + stockCount);
     }
-  
+
 }

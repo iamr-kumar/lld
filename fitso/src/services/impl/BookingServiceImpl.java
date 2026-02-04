@@ -1,11 +1,11 @@
-package services.impl;
+package fitso.src.services.impl;
 
-import models.Booking;
-import models.WorkoutSlot;
-import repositories.BookingRepository;
-import repositories.WorkoutSlotRepository;
-import services.BookingService;
-import services.UserService;
+import fitso.src.models.Booking;
+import fitso.src.models.WorkoutSlot;
+import fitso.src.repositories.BookingRepository;
+import fitso.src.repositories.WorkoutSlotRepository;
+import fitso.src.services.BookingService;
+import fitso.src.services.UserService;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;

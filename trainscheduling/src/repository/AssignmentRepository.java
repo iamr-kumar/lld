@@ -1,4 +1,4 @@
-package repository;
+package trainscheduling.src.repository;
 
 import java.time.LocalTime;
 import java.util.ArrayList;
@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
-import models.PlatformAssignment;
+import trainscheduling.src.models.PlatformAssignment;
 
 public class AssignmentRepository implements IAssignmentRepository {
     Map<Integer, List<PlatformAssignment>> assignments;

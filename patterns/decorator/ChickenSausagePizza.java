@@ -1,4 +1,4 @@
-package decorator;
+package patterns.decorator;
 
 public class ChickenSausagePizza extends BasePizza {
 

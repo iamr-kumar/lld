@@ -1,4 +1,4 @@
-package consumer;
+package kafka.src.consumer;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,9 +9,9 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
-import message.Message;
-import strategy.distribution.IDistributionStrategy;
-import topic.Partition;
+import kafka.src.message.Message;
+import kafka.src.strategy.distribution.IDistributionStrategy;
+import kafka.src.topic.Partition;
 
 public class ConsumerGroup {
     private final String groupId;

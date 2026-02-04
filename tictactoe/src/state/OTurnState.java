@@ -1,6 +1,6 @@
-package state;
+package tictactoe.src.state;
 
-import player.Player;
+import tictactoe.src.player.Player;
 
 public class OTurnState implements GameState {
 

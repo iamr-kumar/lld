@@ -1,4 +1,4 @@
-package models;
+package fitso.src.models;
 
 /**
  * Enum representing different types of workouts available in fitness centers.

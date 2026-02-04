@@ -1,8 +1,8 @@
-package core;
+package cache.src.core;
 
 import java.util.concurrent.ConcurrentHashMap;
 
-import eviction.IEvictionPolicy;
+import cache.src.eviction.IEvictionPolicy;
 
 /**
  * Operations are not thread safe on their own.

@@ -1,3 +1,5 @@
+package trainscheduling.src;
+
 import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -10,20 +12,20 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
-import enums.Status;
-import manager.IPlatformAvailabilityManager;
-import manager.PlatformAvailabilityManager;
-import models.PlatformAssignment;
-import models.ScheduleRequest;
-import models.ScheduleResponse;
-import models.TimeWindow;
-import models.Train;
-import repository.AssignmentRepository;
-import repository.IAssignmentRepository;
-import services.IPlatformService;
-import services.ISchedulingService;
-import services.PlatformService;
-import services.SchedulingService;
+import trainscheduling.src.enums.Status;
+import trainscheduling.src.manager.IPlatformAvailabilityManager;
+import trainscheduling.src.manager.PlatformAvailabilityManager;
+import trainscheduling.src.models.PlatformAssignment;
+import trainscheduling.src.models.ScheduleRequest;
+import trainscheduling.src.models.ScheduleResponse;
+import trainscheduling.src.models.TimeWindow;
+import trainscheduling.src.models.Train;
+import trainscheduling.src.repository.AssignmentRepository;
+import trainscheduling.src.repository.IAssignmentRepository;
+import trainscheduling.src.services.IPlatformService;
+import trainscheduling.src.services.ISchedulingService;
+import trainscheduling.src.services.PlatformService;
+import trainscheduling.src.services.SchedulingService;
 
 /**
  * TrainScheduler Test Suite

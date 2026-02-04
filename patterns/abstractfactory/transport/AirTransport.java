@@ -1,4 +1,4 @@
-package abstractfactory.transport;
+package patterns.abstractfactory.transport;
 
 public class AirTransport implements ITransportMode {
 

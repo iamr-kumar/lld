@@ -1,6 +1,6 @@
-package repositories;
+package fitso.src.repositories;
 
-import models.User;
+import fitso.src.models.User;
 import java.util.Optional;
 
 /**

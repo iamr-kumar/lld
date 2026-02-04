@@ -1,6 +1,6 @@
-package repositories;
+package fitso.src.repositories;
 
-import models.Booking;
+import fitso.src.models.Booking;
 import java.util.List;
 import java.util.Optional;
 

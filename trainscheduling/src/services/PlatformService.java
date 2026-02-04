@@ -1,10 +1,10 @@
-package services;
+package trainscheduling.src.services;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import models.Platform;
+import trainscheduling.src.models.Platform;
 
 public class PlatformService implements IPlatformService {
     List<Platform> platforms;

@@ -1,8 +1,8 @@
-package services.impl;
+package fitso.src.services.impl;
 
-import models.User;
-import repositories.UserRepository;
-import services.UserService;
+import fitso.src.models.User;
+import fitso.src.repositories.UserRepository;
+import fitso.src.services.UserService;
 import java.util.Optional;
 
 /**

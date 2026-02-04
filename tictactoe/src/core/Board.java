@@ -1,7 +1,7 @@
-package core;
+package tictactoe.src.core;
 
-import player.Player;
-import state.GameContext;
+import tictactoe.src.player.Player;
+import tictactoe.src.state.GameContext;
 
 public class Board {
     private final int rows;

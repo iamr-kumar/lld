@@ -1,6 +1,6 @@
-package models;
+package trainscheduling.src.models;
 
-import enums.Status;
+import trainscheduling.src.enums.Status;
 
 public class ScheduleResponse {
     private final Status status;

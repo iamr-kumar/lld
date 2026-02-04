@@ -1,11 +1,11 @@
-package strategy.distribution;
+package kafka.src.strategy.distribution;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-import topic.Partition;
+import kafka.src.topic.Partition;
 
 public class RoundRobinDistribution implements IDistributionStrategy {
     @Override

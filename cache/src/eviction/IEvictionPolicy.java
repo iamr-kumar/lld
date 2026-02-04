@@ -1,4 +1,4 @@
-package eviction;
+package cache.src.eviction;
 
 public interface IEvictionPolicy<K> {
     void onAccess(K key);

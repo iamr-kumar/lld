@@ -1,6 +1,6 @@
-package manager;
+package trainscheduling.src.manager;
 
-import models.PlatformState;
+import trainscheduling.src.models.PlatformState;
 
 public interface IPlatformAvailabilityManager {
     public PlatformState getNextAvailablePlatform();

@@ -1,4 +1,4 @@
-package models;
+package fitso.src.models;
 
 import java.time.LocalDateTime;
 import java.util.Objects;

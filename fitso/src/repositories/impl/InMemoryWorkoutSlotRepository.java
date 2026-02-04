@@ -1,8 +1,8 @@
-package repositories.impl;
+package fitso.src.repositories.impl;
 
-import models.WorkoutSlot;
-import models.WorkoutType;
-import repositories.WorkoutSlotRepository;
+import fitso.src.models.WorkoutSlot;
+import fitso.src.models.WorkoutType;
+import fitso.src.repositories.WorkoutSlotRepository;
 import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.ConcurrentHashMap;

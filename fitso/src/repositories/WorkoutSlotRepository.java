@@ -1,7 +1,7 @@
-package repositories;
+package fitso.src.repositories;
 
-import models.WorkoutSlot;
-import models.WorkoutType;
+import fitso.src.models.WorkoutSlot;
+import fitso.src.models.WorkoutType;
 import java.util.List;
 import java.util.Optional;
 

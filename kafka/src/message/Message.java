@@ -1,4 +1,4 @@
-package message;
+package kafka.src.message;
 
 public class Message {
     private final String message;

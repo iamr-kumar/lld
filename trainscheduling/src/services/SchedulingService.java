@@ -1,4 +1,4 @@
-package services;
+package trainscheduling.src.services;
 
 import java.time.Duration;
 import java.time.LocalTime;
@@ -6,15 +6,15 @@ import java.util.Optional;
 import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
-import enums.Status;
-import manager.IPlatformAvailabilityManager;
-import models.PlatformAssignment;
-import models.PlatformState;
-import models.ScheduleRequest;
-import models.ScheduleResponse;
-import models.TimeWindow;
-import models.Train;
-import repository.IAssignmentRepository;
+import trainscheduling.src.enums.Status;
+import trainscheduling.src.manager.IPlatformAvailabilityManager;
+import trainscheduling.src.models.PlatformAssignment;
+import trainscheduling.src.models.PlatformState;
+import trainscheduling.src.models.ScheduleRequest;
+import trainscheduling.src.models.ScheduleResponse;
+import trainscheduling.src.models.TimeWindow;
+import trainscheduling.src.models.Train;
+import trainscheduling.src.repository.IAssignmentRepository;
 
 public class SchedulingService implements ISchedulingService {
     private final IPlatformAvailabilityManager platformAvailabilityManager;

@@ -1,4 +1,4 @@
-package core;
+package tictactoe.src.core;
 
 public class Position {
     private final int row;

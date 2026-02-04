@@ -1,12 +1,14 @@
+package cache.src;
+
 // driver class to check multi level cache
 
 import java.util.Scanner;
 
-import builder.CacheBuilder;
-import core.CacheLevel;
-import core.MultiLevelCache;
-import eviction.lru.LRUEvictionPolicy;
-import population.promotion.PromoteToAllLowerLevels;
+import cache.src.builder.CacheBuilder;
+import cache.src.core.CacheLevel;
+import cache.src.core.MultiLevelCache;
+import cache.src.eviction.lru.LRUEvictionPolicy;
+import cache.src.population.promotion.PromoteToAllLowerLevels;
 
 public class CacheMain {
     public static void main(String[] args) {

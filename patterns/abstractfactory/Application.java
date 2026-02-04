@@ -1,4 +1,4 @@
-package abstractfactory;
+package patterns.abstractfactory;
 
 public class Application {
   public static void main(String[] args) {

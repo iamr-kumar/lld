@@ -1,4 +1,4 @@
-package observer;
+package patterns.observer;
 
 public class EmailNotification implements IStockObserver {
     private String email;
@@ -11,9 +11,10 @@ public class EmailNotification implements IStockObserver {
 
     @Override
     public void update() {
-      String productName = observable.getProductName();
-      int stockCount = observable.getStockCount();
-      System.out.println("Sending email to " + email + ": " + productName + " is now in stock with count: " + stockCount);
+        String productName = observable.getProductName();
+        int stockCount = observable.getStockCount();
+        System.out.println(
+                "Sending email to " + email + ": " + productName + " is now in stock with count: " + stockCount);
     }
-  
+
 }

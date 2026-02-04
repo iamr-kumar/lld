@@ -1,4 +1,4 @@
-package models;
+package trainscheduling.src.models;
 
 public class Train {
     private final String trainNumber;

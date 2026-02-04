@@ -1,4 +1,4 @@
-package factory;
+package patterns.factory;
 
 public class VehicleClient {
   public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package strategies;
+package fitso.src.strategies;
 
-import models.WorkoutSlot;
+import fitso.src.models.WorkoutSlot;
 import java.util.List;
 
 /**

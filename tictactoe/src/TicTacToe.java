@@ -1,12 +1,14 @@
-import core.Board;
-import core.Position;
-import core.Symbol;
-import player.CPUPlayerStrategy;
-import player.HumanPlayerStrategy;
-import player.Player;
-import state.GameContext;
-import state.GameOutcome;
-import state.GameState;
+package tictactoe.src;
+
+import tictactoe.src.core.Board;
+import tictactoe.src.core.Position;
+import tictactoe.src.core.Symbol;
+import tictactoe.src.player.CPUPlayerStrategy;
+import tictactoe.src.player.HumanPlayerStrategy;
+import tictactoe.src.player.Player;
+import tictactoe.src.state.GameContext;
+import tictactoe.src.state.GameOutcome;
+import tictactoe.src.state.GameState;
 
 public class TicTacToe {
     private Board board;

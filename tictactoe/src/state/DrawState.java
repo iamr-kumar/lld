@@ -1,6 +1,6 @@
-package state;
+package tictactoe.src.state;
 
-import player.Player;
+import tictactoe.src.player.Player;
 
 public class DrawState implements GameState {
     @Override

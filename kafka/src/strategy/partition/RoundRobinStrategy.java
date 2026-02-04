@@ -1,4 +1,4 @@
-package strategy.partition;
+package kafka.src.strategy.partition;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

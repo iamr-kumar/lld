@@ -1,4 +1,4 @@
-package abstractfactory.transport;
+package patterns.abstractfactory.transport;
 
 public class Plane implements IVehicle {
 
@@ -7,5 +7,4 @@ public class Plane implements IVehicle {
     System.out.println("Flying in a plane...");
   }
 
-  
 }

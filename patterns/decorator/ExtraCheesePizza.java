@@ -1,4 +1,4 @@
-package decorator;
+package patterns.decorator;
 
 public class ExtraCheesePizza extends BasePizza {
 
@@ -12,5 +12,5 @@ public class ExtraCheesePizza extends BasePizza {
   public int getCost() {
     return basePizza.getCost() + 50; // Adding cost of extra cheese
   }
-  
+
 }

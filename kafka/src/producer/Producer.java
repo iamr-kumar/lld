@@ -1,6 +1,6 @@
-package producer;
+package kafka.src.producer;
 
-import broker.Broker;
+import kafka.src.broker.Broker;
 
 public class Producer {
     private final Broker broker;

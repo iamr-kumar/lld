@@ -1,4 +1,4 @@
-package builder;
+package patterns.builder;
 
 import java.util.Collections;
 import java.util.HashMap;

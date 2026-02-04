@@ -1,4 +1,4 @@
-package models;
+package trainscheduling.src.models;
 
 import java.time.LocalTime;
 

@@ -1,9 +1,9 @@
-package observer;
+package patterns.observer;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Product implements IStockObservable{
+public class Product implements IStockObservable {
   private String name;
   private int stockCount;
   private List<IStockObserver> observers = new ArrayList<>();
@@ -29,10 +29,10 @@ public class Product implements IStockObservable{
       observer.update();
     }
   }
-  
+
   @Override
   public void addToStock(int stockCount) {
-    if(this.stockCount == 0) {
+    if (this.stockCount == 0) {
       this.stockCount = stockCount;
       notifyObservers();
     } else {

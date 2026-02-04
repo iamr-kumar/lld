@@ -1,9 +1,9 @@
-package services.impl;
+package fitso.src.services.impl;
 
-import models.FitnessCenter;
-import models.WorkoutType;
-import repositories.FitnessCenterRepository;
-import services.FitnessCenterService;
+import fitso.src.models.FitnessCenter;
+import fitso.src.models.WorkoutType;
+import fitso.src.repositories.FitnessCenterRepository;
+import fitso.src.services.FitnessCenterService;
 import java.util.List;
 import java.util.Optional;
 import java.util.Set;

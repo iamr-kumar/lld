@@ -1,4 +1,4 @@
-package abstractfactory.transport;
+package patterns.abstractfactory.transport;
 
 public class RoadTransport implements ITransportMode {
 
@@ -6,5 +6,5 @@ public class RoadTransport implements ITransportMode {
   public void travel() {
     System.out.println("Travelling in road transport...");
   }
-  
+
 }

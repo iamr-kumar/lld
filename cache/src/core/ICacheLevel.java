@@ -1,4 +1,4 @@
-package core;
+package cache.src.core;
 
 public interface ICacheLevel<K, V> {
     V get(K key);

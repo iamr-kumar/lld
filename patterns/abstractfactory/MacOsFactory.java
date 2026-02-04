@@ -1,4 +1,4 @@
-package abstractfactory;
+package patterns.abstractfactory;
 
 public class MacOsFactory implements IFactory {
 
@@ -11,5 +11,5 @@ public class MacOsFactory implements IFactory {
   public ITextBox createTextBox() {
     return new MacOsTextBox();
   }
-  
+
 }

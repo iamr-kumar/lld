@@ -1,4 +1,4 @@
-package abstractfactory;
+package patterns.abstractfactory;
 
 public class GUIFactory {
   public static IFactory createFactory(String osType) {

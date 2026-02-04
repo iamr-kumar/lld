@@ -1,8 +1,8 @@
-package services;
+package trainscheduling.src.services;
 
 import java.util.List;
 
-import models.Platform;
+import trainscheduling.src.models.Platform;
 
 public interface IPlatformService {
     public List<Platform> getPlatforms();

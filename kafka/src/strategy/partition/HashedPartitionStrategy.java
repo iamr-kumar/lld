@@ -1,4 +1,4 @@
-package strategy.partition;
+package kafka.src.strategy.partition;
 
 public class HashedPartitionStrategy implements IPartitionStrategy {
     @Override

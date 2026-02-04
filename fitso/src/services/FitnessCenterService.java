@@ -1,7 +1,7 @@
-package services;
+package fitso.src.services;
 
-import models.FitnessCenter;
-import models.WorkoutType;
+import fitso.src.models.FitnessCenter;
+import fitso.src.models.WorkoutType;
 import java.util.List;
 import java.util.Optional;
 import java.util.Set;

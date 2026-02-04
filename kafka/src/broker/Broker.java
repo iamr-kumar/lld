@@ -1,14 +1,14 @@
-package broker;
+package kafka.src.broker;
 
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-import consumer.ConsumerGroup;
-import strategy.distribution.RoundRobinDistribution;
-import strategy.partition.IPartitionStrategy;
-import topic.Partition;
-import topic.Topic;
+import kafka.src.consumer.ConsumerGroup;
+import kafka.src.strategy.distribution.RoundRobinDistribution;
+import kafka.src.strategy.partition.IPartitionStrategy;
+import kafka.src.topic.Partition;
+import kafka.src.topic.Topic;
 
 public class Broker {
     private final Map<String, Topic> topics;

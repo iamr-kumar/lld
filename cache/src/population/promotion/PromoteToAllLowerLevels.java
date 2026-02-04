@@ -1,9 +1,9 @@
-package population.promotion;
+package cache.src.population.promotion;
 
 import java.util.HashSet;
 import java.util.Set;
 
-import population.IPopulationStrategy;
+import cache.src.population.IPopulationStrategy;
 
 public class PromoteToAllLowerLevels implements IPopulationStrategy {
     @Override

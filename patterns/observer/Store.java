@@ -1,4 +1,4 @@
-package observer;
+package patterns.observer;
 
 public class Store {
   public static void main(String[] args) {

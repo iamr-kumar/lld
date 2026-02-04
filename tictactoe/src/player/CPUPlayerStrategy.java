@@ -1,7 +1,7 @@
-package player;
+package tictactoe.src.player;
 
-import core.Board;
-import core.Position;
+import tictactoe.src.core.Board;
+import tictactoe.src.core.Position;
 
 public class CPUPlayerStrategy implements PlayerStrategy {
     public CPUPlayerStrategy() {

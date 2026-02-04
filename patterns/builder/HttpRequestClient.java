@@ -1,4 +1,4 @@
-package builder;
+package patterns.builder;
 
 public class HttpRequestClient {
     public static void main(String[] args) {

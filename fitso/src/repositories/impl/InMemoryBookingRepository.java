@@ -1,7 +1,7 @@
-package repositories.impl;
+package fitso.src.repositories.impl;
 
-import models.Booking;
-import repositories.BookingRepository;
+import fitso.src.models.Booking;
+import fitso.src.repositories.BookingRepository;
 import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.ConcurrentHashMap;

@@ -1,21 +1,21 @@
-package config;
+package fitso.src.config;
 
-import repositories.BookingRepository;
-import repositories.FitnessCenterRepository;
-import repositories.UserRepository;
-import repositories.WorkoutSlotRepository;
-import repositories.impl.InMemoryBookingRepository;
-import repositories.impl.InMemoryFitnessCenterRepository;
-import repositories.impl.InMemoryUserRepository;
-import repositories.impl.InMemoryWorkoutSlotRepository;
-import services.BookingService;
-import services.FitnessCenterService;
-import services.UserService;
-import services.WorkoutSlotService;
-import services.impl.BookingServiceImpl;
-import services.impl.FitnessCenterServiceImpl;
-import services.impl.UserServiceImpl;
-import services.impl.WorkoutSlotServiceImpl;
+import fitso.src.repositories.BookingRepository;
+import fitso.src.repositories.FitnessCenterRepository;
+import fitso.src.repositories.UserRepository;
+import fitso.src.repositories.WorkoutSlotRepository;
+import fitso.src.repositories.impl.InMemoryBookingRepository;
+import fitso.src.repositories.impl.InMemoryFitnessCenterRepository;
+import fitso.src.repositories.impl.InMemoryUserRepository;
+import fitso.src.repositories.impl.InMemoryWorkoutSlotRepository;
+import fitso.src.services.BookingService;
+import fitso.src.services.FitnessCenterService;
+import fitso.src.services.UserService;
+import fitso.src.services.WorkoutSlotService;
+import fitso.src.services.impl.BookingServiceImpl;
+import fitso.src.services.impl.FitnessCenterServiceImpl;
+import fitso.src.services.impl.UserServiceImpl;
+import fitso.src.services.impl.WorkoutSlotServiceImpl;
 
 /**
  * Configuration class for dependency injection.

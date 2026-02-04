@@ -1,13 +1,15 @@
+package kafka.src;
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import broker.Broker;
-import consumer.ConsumerGroup;
-import message.Message;
-import strategy.partition.HashedPartitionStrategy;
-import strategy.partition.IPartitionStrategy;
-import strategy.partition.RoundRobinStrategy;
+import kafka.src.broker.Broker;
+import kafka.src.consumer.ConsumerGroup;
+import kafka.src.message.Message;
+import kafka.src.strategy.partition.HashedPartitionStrategy;
+import kafka.src.strategy.partition.IPartitionStrategy;
+import kafka.src.strategy.partition.RoundRobinStrategy;
 
 public class Driver {
 

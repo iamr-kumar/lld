@@ -1,4 +1,4 @@
-package core;
+package loggingsystem.src.core;
 
 public class LogMessage {
     private final LogLevel level;

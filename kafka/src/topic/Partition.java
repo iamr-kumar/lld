@@ -1,11 +1,11 @@
-package topic;
+package kafka.src.topic;
 
 import java.util.Map;
 import java.util.Optional;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import message.Message;
+import kafka.src.message.Message;
 
 public class Partition {
     private final String id;

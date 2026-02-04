@@ -1,11 +1,11 @@
-package builder;
+package cache.src.builder;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import core.ICacheLevel;
-import core.MultiLevelCache;
-import population.IPopulationStrategy;
+import cache.src.core.ICacheLevel;
+import cache.src.core.MultiLevelCache;
+import cache.src.population.IPopulationStrategy;
 
 public class CacheBuilder<K, V> {
     private int levels;

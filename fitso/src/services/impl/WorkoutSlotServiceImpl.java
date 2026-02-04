@@ -1,15 +1,15 @@
-package services.impl;
+package fitso.src.services.impl;
 
-import models.FitnessCenter;
-import models.WorkoutSlot;
-import models.WorkoutType;
-import repositories.FitnessCenterRepository;
-import repositories.WorkoutSlotRepository;
-import services.WorkoutSlotService;
-import strategies.SlotFilterStrategy;
-import strategies.impl.AvailableSlotsFilterStrategy;
-import strategies.impl.WorkoutTypeCenterSeatsFilterStrategy;
-import strategies.impl.WorkoutTypeTimeFilterStrategy;
+import fitso.src.models.FitnessCenter;
+import fitso.src.models.WorkoutSlot;
+import fitso.src.models.WorkoutType;
+import fitso.src.repositories.FitnessCenterRepository;
+import fitso.src.repositories.WorkoutSlotRepository;
+import fitso.src.services.WorkoutSlotService;
+import fitso.src.strategies.SlotFilterStrategy;
+import fitso.src.strategies.impl.AvailableSlotsFilterStrategy;
+import fitso.src.strategies.impl.WorkoutTypeCenterSeatsFilterStrategy;
+import fitso.src.strategies.impl.WorkoutTypeTimeFilterStrategy;
 import java.util.List;
 import java.util.Optional;
 

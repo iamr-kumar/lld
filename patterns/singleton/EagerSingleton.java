@@ -1,4 +1,4 @@
-package singleton;
+package patterns.singleton;
 
 public class EagerSingleton {
     // Thread safe as it is initialized at class loading time

@@ -1,4 +1,4 @@
-package observer;
+package patterns.observer;
 
 public interface IStockObservable {
   public void addObserver(IStockObserver observer);

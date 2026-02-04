@@ -1,11 +1,11 @@
-package core;
+package cache.src.core;
 
 import java.util.List;
 import java.util.Set;
 import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
-import population.IPopulationStrategy;
+import cache.src.population.IPopulationStrategy;
 
 public class MultiLevelCache<K, V> {
     private final List<ICacheLevel<K, V>> levels;

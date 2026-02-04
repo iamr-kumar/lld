@@ -1,10 +1,10 @@
-package manager;
+package trainscheduling.src.manager;
 
 import java.time.LocalTime;
 import java.util.PriorityQueue;
 
-import models.PlatformState;
-import services.IPlatformService;
+import trainscheduling.src.models.PlatformState;
+import trainscheduling.src.services.IPlatformService;
 
 public class PlatformAvailabilityManager implements IPlatformAvailabilityManager {
     private final PriorityQueue<PlatformState> platformQueue;

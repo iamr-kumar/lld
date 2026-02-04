@@ -1,4 +1,4 @@
-package singleton;
+package patterns.singleton;
 
 /**
  * Static block singleton allows exception handling during instance creation.

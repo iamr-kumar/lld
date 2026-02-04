@@ -1,11 +1,11 @@
-package services;
+package trainscheduling.src.services;
 
 import java.time.LocalTime;
 import java.util.Optional;
 
-import models.PlatformAssignment;
-import models.ScheduleRequest;
-import models.ScheduleResponse;
+import trainscheduling.src.models.PlatformAssignment;
+import trainscheduling.src.models.ScheduleRequest;
+import trainscheduling.src.models.ScheduleResponse;
 
 public interface ISchedulingService {
     public ScheduleResponse scheduleTrain(ScheduleRequest request);

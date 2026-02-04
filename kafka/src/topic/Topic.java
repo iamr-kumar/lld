@@ -1,12 +1,12 @@
-package topic;
+package kafka.src.topic;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import message.Message;
-import strategy.partition.IPartitionStrategy;
+import kafka.src.message.Message;
+import kafka.src.strategy.partition.IPartitionStrategy;
 
 public class Topic {
     private final String name;

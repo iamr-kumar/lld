@@ -1,9 +1,9 @@
-package repository;
+package trainscheduling.src.repository;
 
 import java.time.LocalTime;
 import java.util.Optional;
 
-import models.PlatformAssignment;
+import trainscheduling.src.models.PlatformAssignment;
 
 public interface IAssignmentRepository {
     void save(PlatformAssignment assignment);
