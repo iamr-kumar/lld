@@ -2,27 +2,43 @@ package cache.src.core;
 
 import java.util.List;
 import java.util.Set;
-import java.util.concurrent.locks.ReadWriteLock;
-import java.util.concurrent.locks.ReentrantReadWriteLock;
+import java.util.concurrent.locks.ReentrantLock;
 
 import cache.src.population.IPopulationStrategy;
 
 public class MultiLevelCache<K, V> {
     private final List<ICacheLevel<K, V>> levels;
     private final IPopulationStrategy promotionStrategy;
-    private final ReadWriteLock rwLock = new ReentrantReadWriteLock();
+    private final int MAX_STRIPES = 64;
+    private final ReentrantLock[] stripes;
 
     public MultiLevelCache(List<ICacheLevel<K, V>> levels, IPopulationStrategy promotionStrategy) {
         this.levels = levels;
         this.promotionStrategy = promotionStrategy;
+        this.stripes = new ReentrantLock[MAX_STRIPES];
+        for (int i = 0; i < MAX_STRIPES; i++) {
+            stripes[i] = new ReentrantLock();
+        }
+    }
+
+    private ReentrantLock getLockForKey(K key) {
+        int hash = Math.abs(key.hashCode());
+        int index = hash % MAX_STRIPES;
+        return stripes[index];
     }
 
     public V get(K key) {
-        rwLock.writeLock().lock();
+        ReentrantLock lock = getLockForKey(key);
+        lock.lock();
         try {
-            for (int i = 0; i < levels.size(); i++) {
+            // Double check L1
+            V value = levels.get(0).get(key);
+            if (value != null) {
+                return value;
+            }
+            for (int i = 1; i < levels.size(); i++) {
                 ICacheLevel<K, V> cache = levels.get(i);
-                V value = cache.get(key);
+                value = cache.get(key);
                 if (value != null) {
                     // promote to lower levels if needed
                     promote(key, value, i);
@@ -30,13 +46,14 @@ public class MultiLevelCache<K, V> {
                 }
             }
         } finally {
-            rwLock.writeLock().unlock();
+            lock.unlock();
         }
         return null;
     }
 
     public void put(K key, V value) {
-        rwLock.writeLock().lock();
+        ReentrantLock lock = getLockForKey(key);
+        lock.lock();
         try {
             // put into all levels
             // We could introduce a strategy here as well
@@ -45,18 +62,19 @@ public class MultiLevelCache<K, V> {
                 cache.put(key, value);
             }
         } finally {
-            rwLock.writeLock().unlock();
+            lock.unlock();
         }
     }
 
     public void remove(K key) {
-        rwLock.writeLock().lock();
+        ReentrantLock lock = getLockForKey(key);
+        lock.lock();
         try {
             for (ICacheLevel<K, V> cache : levels) {
                 cache.remove(key);
             }
         } finally {
-            rwLock.writeLock().unlock();
+            lock.unlock();
         }
     }
 

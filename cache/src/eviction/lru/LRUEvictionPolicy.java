@@ -60,9 +60,14 @@ public class LRUEvictionPolicy<K> implements IEvictionPolicy<K> {
 
     @Override
     public void onAccess(K key) {
-        Node<K> node = nodeMap.get(key);
-        if (node != null) {
-            moveToFront(node);
+        rwLock.writeLock().lock();
+        try {
+            Node<K> node = nodeMap.get(key);
+            if (node != null) {
+                moveToFront(node);
+            }
+        } finally {
+            rwLock.writeLock().unlock();
         }
     }
 
