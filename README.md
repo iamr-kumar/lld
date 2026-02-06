@@ -19,6 +19,7 @@ lld/
 ├── tictactoe/             # Tic Tac Toe game
 ├── bookmyshow/            # Movie ticket booking
 ├── loggingsystem/         # Logging framework
+├── snakeandladder/        # Snake and Ladder board game
 ├── uber/                  # Ride matching simulation
 └── uberdriverdispatch/    # driver dispatch module
 ```
@@ -40,6 +41,7 @@ lld/
 | [BookMyShow](./bookmyshow)              | Movie ticket booking with seat selection and show management                       | Seat Locking, Transaction Management                   |
 | [Logging System](./loggingsystem)       | Configurable logging framework with multiple appenders                             | Singleton, Chain of Responsibility                     |
 | [Uber (Ride Matching)](./uber)          | Simplified ride matching with workers, driver locking, and async ride requests     | Strategy, Producer–Consumer, CompletableFuture         |
+| [Snake and Ladder](./snakeandladder)    | Classic board game with snakes, ladders, pluggable turn strategies                 | Strategy Pattern, Polymorphism, Context Object         |
 
 ---
 
