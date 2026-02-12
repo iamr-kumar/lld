@@ -1,5 +1,7 @@
 package asynctaskmanagement.src.repository;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -37,5 +39,16 @@ public class TaskRepository implements ITaskRepository {
         TaskNode dependencyNode = taskNodeMap.get(dependencyId);
         taskNode.addDependency(dependencyId);
         dependencyNode.addDependent(taskId);
+    }
+
+    @Override
+    public List<String> getRootTaskIds() {
+        List<String> rootTaskIds = new ArrayList<>();
+        for (TaskNode node : taskNodeMap.values()) {
+            if (node.isReady()) {
+                rootTaskIds.add(node.getTask().getId());
+            }
+        }
+        return rootTaskIds;
     }
 }

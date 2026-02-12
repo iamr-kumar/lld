@@ -15,7 +15,7 @@ public class Task {
     private final Callable<Object> work;
     private final CompletableFuture<Object> future;
     private final AtomicReference<TaskStatus> status;
-    private final List<TaskStatus> TERMINAL_STATE = Arrays.asList(TaskStatus.COMPLETED, TaskStatus.FAILED,
+    private static final List<TaskStatus> TERMINAL_STATE = Arrays.asList(TaskStatus.COMPLETED, TaskStatus.FAILED,
             TaskStatus.CANCELLED);
 
     public Task(String name, Callable<Object> work) {
